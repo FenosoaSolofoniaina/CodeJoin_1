@@ -1,0 +1,19 @@
+body, html { margin: 0; padding: 0; width: 100%; }
+h1 { font-weight: bold; font-size: 32pt; font-family: rockwell; }
+.flex-row { display: flex; margin: 10px; }
+.btnPerso {  min-width: 15%; margin-left: 5px; background-color: #fff; overflow: hidden; }
+.center { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0; 
+}
+.margin-bottom5 { margin-bottom: 5%;}
+ul { font-size: 16pt; font-weight: lighter; list-style-type: none; }
+ul li {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #444;
+    border-radius: 10px;
+}

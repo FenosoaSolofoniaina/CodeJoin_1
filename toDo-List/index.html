@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <h1>To Do List</h1>
+        </div>
+        <div class="flex-row margin-bottom5">
+            <input type="text" name="task" id="task" class="form-control"
+                placeholder="Exemple : tâche1, tâche2, ..." title="Ajouter une tâche">
+            <button class="btn btnPerso btn-outline-secondary" id="btnAdd" title="Ajouter une nouvelle tâche">
+                <img src="icons/icons16x16/add_new.png"> Ajouter
+            </button>
+            <button class="btn btnPerso btn-outline-secondary" id="btnClear" title="Vider la liste des tâches">
+                <img src="icons/icons16x16/delete.png"> Vider la liste
+            </button>
+        </div>
+        <div >
+            <div class="center">
+                <h2 style="font-weight: lighter;">Liste des tâches</h2>
+            </div>
+            <div class="center">
+                <ul id="list"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
